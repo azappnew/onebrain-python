@@ -33,7 +33,8 @@ from onebrain._exceptions import (
 )
 
 if TYPE_CHECKING:
-    from onebrain._base_client import BaseClient, AsyncBaseClient
+    from onebrain._client import BaseClient
+    from onebrain._async_client import AsyncBaseClient
     from onebrain.resources.memory import MemoryResource, AsyncMemoryResource
     from onebrain.resources.entity import EntityResource, AsyncEntityResource
     from onebrain.resources.project import ProjectResource, AsyncProjectResource
@@ -101,7 +102,7 @@ class OneBrain:
                 "Create one at https://onebrain.rocks/dashboard/api-keys"
             )
 
-        from onebrain._base_client import BaseClient
+        from onebrain._client import BaseClient
         from onebrain.resources.memory import MemoryResource
         from onebrain.resources.entity import EntityResource
         from onebrain.resources.project import ProjectResource
@@ -203,7 +204,7 @@ class AsyncOneBrain:
                 "Create one at https://onebrain.rocks/dashboard/api-keys"
             )
 
-        from onebrain._base_client import AsyncBaseClient
+        from onebrain._async_client import AsyncBaseClient
         from onebrain.resources.memory import AsyncMemoryResource
         from onebrain.resources.entity import AsyncEntityResource
         from onebrain.resources.project import AsyncProjectResource
