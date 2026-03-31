@@ -1,7 +1,7 @@
 # OneBrain Python SDK
 
-[![PyPI version](https://img.shields.io/pypi/v/onebrain.svg)](https://pypi.org/project/onebrain/)
-[![Python 3.9+](https://img.shields.io/pypi/pyversions/onebrain.svg)](https://pypi.org/project/onebrain/)
+[![PyPI version](https://img.shields.io/pypi/v/onebrain-sdk.svg)](https://pypi.org/project/onebrain-sdk/)
+[![Python 3.9+](https://img.shields.io/pypi/pyversions/onebrain-sdk.svg)](https://pypi.org/project/onebrain-sdk/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Typed](https://img.shields.io/badge/typed-mypy--strict-blue.svg)](https://mypy-lang.org/)
 
@@ -18,7 +18,7 @@ and agents. Store, search, and connect memories across every AI tool you use.
 ## Installation
 
 ```bash
-pip install onebrain
+pip install onebrain-sdk
 ```
 
 Requires **Python 3.9+**. The only runtime dependency is

@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "onebrain"
+name = "onebrain-sdk"
 dynamic = ["version"]
 description = "Official OneBrain SDK — persistent AI memory layer for humans and agents"
 readme = "README.md"
